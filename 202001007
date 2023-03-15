@@ -1,8 +1,80 @@
+IT 314 Software Engineering
+LAB-5
+
 Name: Viral Barodia
 ID: 202001007
+
 
 Repository link: https://github.com/mcba1n/polar-codes
 
 Code link: https://github.com/mcba1n/polar-codes/blob/master/test.py
 
-![Error Output](https://github.com/Viral-Barodia/Lab-5_202001007/blob/main/viral1.png)
+Code snippets
+
+
+
+Errors (in Visual Studio Code):
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mypy description:
+
+Mypy is a static type checker for the Python programming language. It allows developers to specify the types of variables, arguments, and return values in their Python code, and then checks whether those types are used consistently throughout the codebase. Mypy can help catch errors early in the development process, improve code quality, and make code easier to understand and maintain.
+
+
+Errors (using mypy)
+
+
+
+The corresponding code snippet is:
+
+
+The error is that a comma is missing while declaring the numpy array.
+
+This is a true positive, as in, the error shown is truly an error.
+
+
+
+
+
+
+
+
+
+
+
+
+There is another error that mypy is not able to catch, it is as follows:
+
+
+The line where library numpy is imported, is erroneous, and mypy is not able to catch that.
+
+
